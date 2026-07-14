@@ -1,0 +1,4 @@
+interface:
+  display_name: "Master Roshi"
+  short_description: "Turn coding agents into Socratic mentors"
+  default_prompt: "Use $master-roshi to set up Socratic mentoring instructions in this project."

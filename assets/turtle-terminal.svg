@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Turtle terminal">
+  <title>Turtle terminal</title>
+  <desc>An original green turtle shell containing a dark terminal prompt.</desc>
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fcb52"/>
+      <stop offset="1" stop-color="#4f8737"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke="#263d2d" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M57 169c-19 2-31 12-34 29 18 6 34 2 47-12" fill="#82b94b" stroke-width="8"/>
+    <path d="M263 169c19 2 31 12 34 29-18 6-34 2-47-12" fill="#82b94b" stroke-width="8"/>
+    <path d="M93 202c-10 12-11 23-3 33 14-5 23-14 27-27" fill="#82b94b" stroke-width="8"/>
+    <path d="M227 202c10 12 11 23 3 33-14-5-23-14-27-27" fill="#82b94b" stroke-width="8"/>
+    <path d="M264 109c24-8 44 3 48 21-6 17-27 23-49 13" fill="#99cf58" stroke-width="8"/>
+    <circle cx="292" cy="126" r="3.5" fill="#263d2d" stroke="none"/>
+
+    <path d="M52 141c0-61 48-111 108-111s108 50 108 111c0 57-43 82-108 82S52 198 52 141Z" fill="url(#shell)" stroke-width="10"/>
+    <path d="M81 104 119 57h82l38 47-16 75-63 28-63-28Z" stroke="#d4e99d" stroke-width="6" opacity=".72"/>
+    <path d="m119 57 41 35 41-35M81 104l47 27-31 48m142-75-47 27 31 48M128 131h64m-32-39v39" stroke="#d4e99d" stroke-width="5" opacity=".68"/>
+
+    <rect x="84" y="91" width="152" height="96" rx="13" fill="#15251c" stroke="#f2f6dc" stroke-width="6"/>
+    <path d="M87 115h146" stroke="#f2f6dc" stroke-width="5"/>
+    <circle cx="101" cy="103" r="4" fill="#ee8d72" stroke="none"/>
+    <circle cx="115" cy="103" r="4" fill="#e5c45c" stroke="none"/>
+    <circle cx="129" cy="103" r="4" fill="#8fcb52" stroke="none"/>
+    <path d="m108 139 14 12-14 12m27 0h31" stroke="#b6e36d" stroke-width="7"/>
+    <path d="M176 151h28" stroke="#f2f6dc" stroke-width="7"/>
+  </g>
+</svg>
