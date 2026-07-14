@@ -27,7 +27,31 @@ $master-roshi Install the learning contract for this repository.
 
 ## Installation
 
-With Codex `$skill-installer`:
+### Skills CLI (`npx skills`)
+
+With Node.js installed, run this from the project where you want to use Master Roshi:
+
+```bash
+npx skills add 0d4vid/master-roshi --skill master-roshi
+```
+
+The CLI detects supported agents and lets you choose the installation targets. To make the skill available across projects, install it globally:
+
+```bash
+npx skills add 0d4vid/master-roshi --skill master-roshi --global
+```
+
+To install non-interactively for every agent detected by the CLI:
+
+```bash
+npx skills add 0d4vid/master-roshi --skill master-roshi --agent '*' --yes
+```
+
+Verify the installation with `npx skills list`, or use `npx skills list --global` for the global scope. Future updates can be applied with `npx skills update`.
+
+### Codex skill installer
+
+From Codex, you can alternatively use `$skill-installer`:
 
 ```text
 $skill-installer Install https://github.com/0d4vid/master-roshi/tree/main/skills/master-roshi

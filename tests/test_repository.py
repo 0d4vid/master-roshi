@@ -219,6 +219,8 @@ class RepositoryContractTests(unittest.TestCase):
         self.assertIn("Learning mode", content)
         self.assertIn("Install mode", content)
         self.assertIn("CONTRIBUTING.md", content)
+        self.assertIn("npx skills add 0d4vid/master-roshi --skill master-roshi", content)
+        self.assertIn("npx skills list --global", content)
 
     def test_readme_embeds_the_canonical_manual_contract(self) -> None:
         content = read(ROOT / "README.md")
