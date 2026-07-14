@@ -6,6 +6,7 @@ __pycache__/
 .coverage
 htmlcov/
 .tmp/
+.worktrees/
 
 # Virtual environments
 .venv/
