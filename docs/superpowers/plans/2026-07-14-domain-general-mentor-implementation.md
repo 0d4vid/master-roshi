@@ -8,6 +8,8 @@
 
 **Tech Stack:** Agent Skills Markdown, Python 3 standard library plus optional Anthropic/OpenAI SDKs for live evals, `unittest`, GitHub Actions.
 
+**Implementation status (2026-07-14):** repository, skill, deterministic harness, scenarios, CI, portability, pedagogy, documentation, and installed-skill synchronization are implemented and validated. Live provider runs, five-repeat adversarial sampling, and promotion of independently judged evidence remain pending credentials; no behavioral pass claim is recorded.
+
 ## Global constraints
 
 - Default invocation starts learning mode without editing project files.

@@ -144,10 +144,12 @@ A response may still contain a concept, action, and question, but those are
 semantic responsibilities rather than mandatory headings. The learner's answer
 must influence the next turn.
 
-### 4. Replace the incantation gate with an assistance ladder
+### 4. Put the exact gate inside an assistance ladder
 
-The exact phrase `show me the answer` is memorable but too mechanical for a
-general tutor. Use explicit support requests instead:
+Retain the exact phrase `show me the answer` as the explicit trigger for a
+visible evidence check. Natural-language requests for a final answer must be
+acknowledged and routed back to that trigger, so the interaction never feels
+like the mentor ignored the learner. Support still escalates through a ladder:
 
 1. observation or prediction;
 2. focused cue;
@@ -156,14 +158,10 @@ general tutor. Use explicit support requests instead:
 5. direct solution to the current task, followed by explanation and a short
    transfer check.
 
-The learner can ask for `a hint`, `an example`, or `the solution` in natural
-language. For a novice, a worked example can appear earlier when it is the
-appropriate scaffold. A direct solution must never silently become evidence of
-mastery.
-
-If the learner explicitly prioritizes task completion over learning, Master
-Roshi should explain that it is leaving learning mode and ask for confirmation
-before editing or completing the work. User agency replaces obstruction.
+The learner can ask for `a hint` or `an example` in natural language. A direct
+current-task solution requires the exact trigger plus attempt, specific
+reasoning, and reviewed-hint evidence. A reveal never silently becomes evidence
+of mastery, and project edits remain with the learner.
 
 ### 5. Add first-class domain patterns
 
@@ -252,7 +250,7 @@ A candidate is releasable when:
 
 - Route normal mentoring separately from explicit installation.
 - Replace mandatory headings with the adaptive learning cycle.
-- Replace the exact-phrase gate with the assistance ladder.
+- Embed the retained exact-phrase gate in the assistance ladder and visible ledger.
 - Add retrieval, transfer, uncertainty, and mastery rules.
 
 ### Phase 4 — Add domain adapters (2–4 days)

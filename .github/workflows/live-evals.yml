@@ -1,0 +1,31 @@
+name: Live behavioral evaluations
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: pip install -r evals/requirements.txt
+      - name: Run configured multi-model matrix
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EVAL_MODELS_JSON: ${{ secrets.EVAL_MODELS_JSON }}
+        run: |
+          printf '%s' "$EVAL_MODELS_JSON" > evals/models.json
+          python evals/harness.py matrix --config evals/models.json --output-dir evals/runs
+      - name: Upload raw transcripts and judgments
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: master-roshi-eval-evidence
+          path: evals/runs

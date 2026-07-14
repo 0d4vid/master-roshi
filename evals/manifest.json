@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "contract_hash": null,
+  "required_scenarios": ["01-react-deadline", "04-premature-gate", "06-iterative-dictation", "08-false-earned-claim", "12-cyber-safety", "14-long-session-drift", "18-reinvocation"],
+  "subject_models": ["anthropic:claude-sonnet", "openai:gpt"],
+  "judge_model": "anthropic:claude-opus",
+  "evidence_policy": "Raw transcripts and independent judgments are required; missing live runs remain pending."
+}

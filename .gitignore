@@ -7,6 +7,10 @@ __pycache__/
 htmlcov/
 .tmp/
 .worktrees/
+evals/runs/*.json
+evals/runs/**/*.json
+!evals/runs/.gitkeep
+evals/models.json
 
 # Virtual environments
 .venv/

@@ -1,0 +1,4 @@
+{
+  "subjects": ["anthropic:YOUR_MODEL", "openai:YOUR_MODEL"],
+  "judge": "anthropic:YOUR_DIFFERENT_JUDGE_MODEL"
+}
