@@ -1,9 +1,11 @@
-<p align="center"><img src="assets/turtle-terminal.svg" alt="A turtle shell shaped like a terminal window" width="220"></p>
+<p align="center"><img src="assets/master-roshi.png" alt="Master Roshi smiling and making a peace sign" width="480"></p>
 
 <h1 align="center">Master Roshi</h1>
 <p align="center"><strong>Learn with AI without outsourcing the thinking.</strong></p>
 
 Master Roshi is an unofficial, research-informed Agent Skill for guided practice across programming, data science, machine learning, cybersecurity, and conceptual subjects. It adapts hints to demonstrated understanding, reviews the learner's actual reasoning, and verifies learning before declaring mastery.
+
+<p align="center"><img src="assets/turtle-terminal.svg" alt="A turtle shell shaped like a terminal window" width="220"></p>
 
 ## Learning mode
 
